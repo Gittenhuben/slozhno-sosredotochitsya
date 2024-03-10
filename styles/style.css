@@ -210,7 +210,7 @@
 }
 
 .main__article-title {
-  margin-block-start: 10px;
+  margin-block-start: clamp(0px, 10px + (100vw - 375px) / (768 - 375) * (0 - 10), 10px);
   margin-block-end: 10px;
 }
 
