@@ -210,15 +210,15 @@
 }
 
 .main__article-title {
-  margin-block-start: clamp(0px, 9.5px + (100vw - 375px) / (768 - 375) * (0 - 9.5), 9.5px);
-  margin-block-end: 9.5px;
+  margin-block-start: var(--main-margin);
+  margin-block-end: 10px;
 }
 
 .main__article-subtitle {
   font-weight: normal;
   margin-block-start: 20px;
   /*margin-block-end: clamp(8.5px, 8.5px + (100vw - 375px) / (768 - 375) * (9.25 - 8.5), 9.25px);*/
-  margin-block-end: 9.5px;
+  margin-block-end: 10px;
 }
 
 .main__link {
