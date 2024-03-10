@@ -1,4 +1,24 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --diff: calc(100vw - 100%);
+
+  /* shift of the "no focus" title from word wrap */
+  --shift: calc((116 + (581.5 - 375) / (768 - 375) * (120 - 116)) * 82.5 / 100);
+  --shift-px: calc(1px * var(--shift));
+  --shift-position: calc(581.5px + var(--diff));
+
+  /* default margin */
+  --main-margin: clamp(10px, 10px + (100vw - 375px) / (768 - 375) * (20 - 10), 20px);
+
+  --auto-text-color: #353430;
+  --auto-headers-text-color: #353430;
+  --auto-headers-background-color: #ff8dcb;
+  --auto-title-text-color: #ffc2e6;
+  --auto-background-color: #fff1f7;
+  --auto-title-shadow-desctop-color: #ff0070;
+  --auto-title-shadow-mobile-color: #ff8dcb;
+  --auto-hover-color: rgb(50 49 45 / 0.4);
+  --auto-link-shadow-color: #ff8dcb;
+  --auto-theme-color: #353430;
+  --auto-rec-color: transparent;
+  --auto-background-image-path: url('../images/cover-image-light.png');
+}
