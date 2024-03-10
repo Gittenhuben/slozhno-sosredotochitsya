@@ -210,7 +210,7 @@
 }
 
 .main__article-title {
-  margin-block-start: var(--main-margin);
+  margin-block-start: 10px;
   margin-block-end: 10px;
 }
 
