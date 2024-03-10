@@ -33,16 +33,16 @@
 }
 
 .page.theme_auto {
-  --text-color: var(--auto-text-color, #f1b2ce);
-  --headers-text-color: var(--auto-headers-text-color, #000028);
-  --headers-background-color: var(--auto-headers-background-color, #ff0070);
-  --title-text-color: var(--auto-title-text-color, #db00ff);
-  --background-color: var(--auto-background-color, #000028);
+  --text-color: var(--auto-text-color, #353430);
+  --headers-text-color: var(--auto-headers-text-color, #353430);
+  --headers-background-color: var(--auto-headers-background-color, #ff8dcb);
+  --title-text-color: var(--auto-title-text-color, #ffc2e6);
+  --background-color: var(--auto-background-color, #fff1f7);
   --shadow-desctop-color: var(--auto-title-shadow-desctop-color, #ff0070);
-  --title-shadow-mobile-color: var(--auto-title-shadow-mobile-color, #ff0070);
-  --hover-color: var(--auto-hover-color, rgb(255 00 112 / 0.4));
-  --link-shadow-color: var(--auto-link-shadow-color, #ff0070);
-  --theme-color: var(--auto-theme-color, #ff0070);
-  --rec-color: var(--auto-rec-color, #ff0070);
-  --background-image-path: var(--auto-background-image-path, url('../images/cover-image-dark.png'));
+  --title-shadow-mobile-color: var(--auto-title-shadow-mobile-color, #ff8dcb);
+  --hover-color: var(--auto-hover-color, rgb(50 49 45 / 0.4));
+  --link-shadow-color: var(--auto-link-shadow-color, #ff8dcb);
+  --theme-color: var(--auto-theme-color, #353430);
+  --rec-color: var(--auto-rec-color, transparent);
+  --background-image-path: var(--auto-background-image-path, url('../images/cover-image-light.png'));
 }
