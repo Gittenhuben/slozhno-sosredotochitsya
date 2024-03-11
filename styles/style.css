@@ -239,7 +239,7 @@
 
 .main__article-title {
   align-self: start;
-  margin-block-start: clamp(0px, 9.5px + (100vw - 375px) / (768 - 375) * (0 - 9.5), 9.5px);
+  margin-block-start: clamp(0px, 10px + (100vw - 375px) / (768 - 375) * (0 - 10), 10px);
   margin-block-end: 9.5px;
 }
 
