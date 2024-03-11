@@ -12,3 +12,20 @@
   --rec-color: transparent;
   --background-image-path: url('../images/cover-image-light.png');
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #353430;
+    --headers-text-color: #353430;
+    --headers-background-color: #ff8dcb;
+    --title-text-color: #ffc2e6;
+    --background-color: #fff1f7;
+    --title-shadow-desctop-color: #ff0070;
+    --title-shadow-mobile-color: #ff8dcb;
+    --hover-color: rgb(50 49 45 / 0.4);
+    --link-shadow-color: #ff8dcb;
+    --theme-color: #353430;
+    --rec-color: transparent;
+    --background-image-path: url('../images/cover-image-light.png');
+  }
+}
