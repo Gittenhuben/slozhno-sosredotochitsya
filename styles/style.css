@@ -240,7 +240,7 @@
 .main__article-title {
   align-self: start;
   margin-block-start: clamp(0px, 10px + (100vw - 375px) / (768 - 375) * (0 - 10), 10px);
-  margin-block-end: 9.5px;
+  margin-block-end: clamp(9.5px, 10px + (100vw - 375px) / (768 - 375) * (9.5 - 10), 10px);
 }
 
 .main_text:not(:last-child) {
